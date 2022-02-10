@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 20px;
+    display:flex;
+    height: 75px;
+    background-color: darkgreen;
+}
+#projects img {
+    height: 400px;
+    
+}
+#navbar li {
+    display: inline;
+    align-content: center;
+    justify-content: space-between;
+    /*flex-direction: column;*/
+    padding: 10px;
+    height: 60px;
+    color: white;
+}
+#navbar ul {
+    padding: 20px;
+    background-color: rgb(197, 185, 185);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+@media screen and (max-width: 765px) {
+    html {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    html {
+        width: 100%;
+    }
+
+}
+
